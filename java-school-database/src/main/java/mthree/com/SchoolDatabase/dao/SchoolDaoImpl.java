@@ -114,7 +114,7 @@ public class SchoolDaoImpl implements SchoolDao {
         String sql = "INSERT INTO course_student (student_id, course_id) " +
                      "SELECT 123, cid " +
                      "FROM course " +
-                     "WHERE courseCode = 'CS148'";
+                     "WHERE courseCode = 'CS148' ";
 
         // YOUR CODE ENDS HERE
         jdbcTemplate.update(sql);
